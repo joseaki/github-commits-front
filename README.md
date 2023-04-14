@@ -14,7 +14,7 @@ On the root of the project create a `.env.local` file and insert the following v
 
 ```bash
 NEXT_PUBLIC_BASE_URL="http://localhost:8000"
-NEXT_PUBLIC_DEFAULT_REPO="https://github.com/joseaki/semantic-segmentation-editor"
+NEXT_PUBLIC_DEFAULT_REPO="https://github.com/joseaki/github-commits-backend"
 ```
 
 ## Run the project
