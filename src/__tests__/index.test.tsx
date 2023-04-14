@@ -1,10 +1,9 @@
-import { fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import Home from "@/pages/index";
 import { RepoProvider } from "@/hooks/useRepo";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import * as githubService from "../services/github.service";
-import { UserEvent } from "@testing-library/user-event/dist/types/setup/setup";
+
 function setup() {
   const user = userEvent.setup();
   render(
@@ -16,6 +15,7 @@ function setup() {
   );
   return { user };
 }
+
 const queryClient = new QueryClient({
   logger: {
     log: console.log,
