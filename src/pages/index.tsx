@@ -5,10 +5,7 @@ import { useCommits } from "@/hooks/useCommits";
 import Input from "@/components/atoms/Input/input";
 import Button from "@/components/atoms/Button/button";
 import { SubmitHandler, useForm } from "react-hook-form";
-import {
-  MainPage,
-  SearchForm,
-} from "@/components/interfaces/mainPage.interface";
+import { MainPage, SearchForm } from "@/interfaces/mainPage.interface";
 import { useRepo } from "@/hooks/useRepo";
 import { DEFAULT_REPO } from "@/config/constants";
 import { useRouter } from "next/router";
