@@ -1,6 +1,5 @@
 import Image from "@/components/atoms/Image/image";
 import { useCommits } from "@/hooks/useCommits";
-import { useRepo } from "@/hooks/useRepo";
 import { useEffect, useMemo } from "react";
 import { useTable } from "react-table";
 
